@@ -1,0 +1,1 @@
+[16-Jun-2019 19:47:01 America/Sao_Paulo] PHP Warning:  var_dump() expects at least 1 parameter, 0 given in /home/php7transferenci/public_html/includes/json/decode.php on line 7

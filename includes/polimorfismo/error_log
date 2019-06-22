@@ -1,0 +1,2 @@
+[20-Jun-2019 22:51:17 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/php7transferenci/public_html/includes/polimorfismo/1.php on line 9
+[20-Jun-2019 22:55:16 UTC] PHP Parse error:  syntax error, unexpected 'get_loaded_extensions' (T_STRING), expecting '(' in /home/php7transferenci/public_html/includes/polimorfismo/1.php on line 15

@@ -1,0 +1,2 @@
+[20-Jun-2019 16:42:26 UTC] PHP Parse error:  syntax error, unexpected 'publis' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in /home/php7transferenci/public_html/includes/classe/encapsulamento/1.php on line 3
+[20-Jun-2019 16:52:25 UTC] PHP Parse error:  syntax error, unexpected '$objeto' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST) in /home/php7transferenci/public_html/includes/classe/encapsulamento/2.php on line 17

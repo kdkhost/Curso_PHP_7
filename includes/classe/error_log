@@ -1,0 +1,21 @@
+[20-Jun-2019 16:03:17 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Documento::validarCPF() must be an instance of boot, boolean returned in /home/php7transferenci/public_html/includes/classe/3.php:56
+Stack trace:
+#0 /home/php7transferenci/public_html/includes/classe/3.php(10): Documento::validarCPF('09577711774')
+#1 /home/php7transferenci/public_html/includes/classe/3.php(62): Documento->setNumero('09577711774')
+#2 {main}
+  thrown in /home/php7transferenci/public_html/includes/classe/3.php on line 56
+[20-Jun-2019 16:06:19 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Documento::validarCPF() must be an instance of boot, boolean returned in /home/php7transferenci/public_html/includes/classe/3.php:56
+Stack trace:
+#0 /home/php7transferenci/public_html/includes/classe/3.php(66): Documento::validarCPF('09577711774')
+#1 {main}
+  thrown in /home/php7transferenci/public_html/includes/classe/3.php on line 56
+[20-Jun-2019 16:06:38 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Documento::validarCPF() must be an instance of boot, boolean returned in /home/php7transferenci/public_html/includes/classe/3.php:56
+Stack trace:
+#0 /home/php7transferenci/public_html/includes/classe/3.php(66): Documento::validarCPF('09577711774')
+#1 {main}
+  thrown in /home/php7transferenci/public_html/includes/classe/3.php on line 56
+[20-Jun-2019 16:06:52 UTC] PHP Fatal error:  Uncaught TypeError: Return value of Documento::validarCPF() must be an instance of boot, boolean returned in /home/php7transferenci/public_html/includes/classe/3.php:56
+Stack trace:
+#0 /home/php7transferenci/public_html/includes/classe/3.php(66): Documento::validarCPF('09577711774')
+#1 {main}
+  thrown in /home/php7transferenci/public_html/includes/classe/3.php on line 56

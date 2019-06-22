@@ -1,0 +1,4 @@
+[20-Jun-2019 18:16:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function setNumero() in /home/php7transferenci/public_html/includes/heranca/1.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/php7transferenci/public_html/includes/heranca/1.php on line 24
