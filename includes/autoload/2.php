@@ -18,5 +18,8 @@
 
     $carro = new Gol();
     $carro->acelerar(80);
+    echo "<br/>";
+    echo "e ";
+    $carro->frenou(10);
 
 ?>
