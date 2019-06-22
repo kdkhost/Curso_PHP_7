@@ -1,7 +1,7 @@
 <?php
     include ("abstrata/Automovel.php");
 
-class DelRey extends Automovel {
+class Gol extends Automovel {
     public function empurrar(){
 
     }

@@ -16,7 +16,7 @@
 
     });
 
-    $carro = new DelRey();
+    $carro = new Gol();
     $carro->acelerar(80);
 
 ?>
