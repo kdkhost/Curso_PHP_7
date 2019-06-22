@@ -4,6 +4,7 @@ function __autoload($nomeClasse){
     require_once("$nomeClasse.php");
 }
     $carro = new Gol();
+    echo "<br/>";
     $carro->acelerar(80);
 
 ?>
