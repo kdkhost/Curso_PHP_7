@@ -1,7 +1,7 @@
 <?php
     require_once("config.php");
 
-    use Cliente \Cadastro;
+    use Cliente\Cadastro;
 
     $cad = new Cadastro();
     $cad->setNome("Marcelo");
@@ -9,5 +9,4 @@
     $cad->setSenha("admin123.");
 
     $cad->registrarVendas();
-    //echo $cad;
 ?>
