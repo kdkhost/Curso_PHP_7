@@ -1,7 +1,7 @@
 <?php
     require_once("config.php");
 
-    use Cliente\Cadastrar;
+    use Cliente\Cadastro;
 
     $cad = new Cadastrar();
     $cad->setNome("Marcelo");
