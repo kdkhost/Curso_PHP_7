@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Sun Jun 23 2019 16:44:29 GMT-0300 (Hora oficial do Brasil)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* tb-usuarios/tb_usuarios.sql
+
+
+Deleted files:
+
+
+Renamed files:
