@@ -9,4 +9,5 @@
     $cad->setSenha("admin123.");
 
     $cad->registrarVendas();
+    echo $cad;
 ?>
