@@ -1,6 +1,6 @@
 <?php
     namespace Cliente;
-    class Cadastro extends \Cadastro {
+    class Cadastros extends \Cadastros {
         public function registrarVendas(){
             echo "Foi Registrado uma venda para o cliente ".$this->getName();
         }
