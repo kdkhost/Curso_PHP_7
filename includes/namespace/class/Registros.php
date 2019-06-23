@@ -1,5 +1,5 @@
 <?php
-    class Registro {
+    class Registros {
         private $nome;
         private $email;
         private $senha;
