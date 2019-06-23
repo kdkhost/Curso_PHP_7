@@ -8,6 +8,6 @@
     $cad->setEmail("contato@kdkhost.com.br");
     $cad->setSenha("admin123.");
 
-    //$cad->registrarVendas();
-    echo $cad;
+    $cad->registrarVendas();
+    //echo $cad;
 ?>
