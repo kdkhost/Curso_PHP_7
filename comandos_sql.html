@@ -1,0 +1,44 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+	<title></title>
+</head>
+<body><!-- Comandos para criar tabela no banco de dados -->
+<div id="1" lang="pt_BR" style="background:#eee;border:1px solid #ccc;padding:5px 10px;" title="criar tabela">
+<p><strong>comando para criar uma tabela no banco de dados</strong></p>
+
+<p>CREATE TABLE tb_usuarios (</p>
+
+<p>idusuario INT NOT NULL AUTO_INCREMENT PRIMARY KEY,</p>
+
+<p>deslogin VARCHAR(64) NOT NULL,</p>
+
+<p>dessenha VARCHAR(256) NOT NULL,</p>
+
+<p>dtcadastro TIMESTAMP NOT NULL DEFALUT CURRENT_TIMESTAMP()</p>
+
+<p>);</p>
+</div>
+
+<p></p>
+
+<p></p>
+
+<p><strong>comando para inserir um cadastro na tabela criada&nbsp;</strong></p>
+
+<div>INSERT INTO tb_usuarios (deslogin, dessenha) VALUES(&#39;eduardo&#39;,&#39;123456&#39;);</div>
+
+<p></p>
+
+<p><strong>comando para atualizar/alterar um cadastro na tabela criada</strong></p>
+
+<div>UPDATE tb_usuarios SET dessenha = &#39;7891012&#39; WHERE idusuario = 1;</div>
+
+<p></p>
+
+<p><strong>comando para Deletar um cadastro na tabela criada&nbsp;</strong></p>
+
+<div>DELET FROM tb_usuarios WHERE idusuario = 1;</div>
+
+<p></p>
+</body>
+</html>
