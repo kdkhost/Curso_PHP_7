@@ -6,5 +6,5 @@
     $cad->setEmail("contato@kdkhost.com.br");
     $cad->setSenha("admin123.");
 
-    echo $cad();
+    echo $cad;
 ?>
