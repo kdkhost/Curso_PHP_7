@@ -3,7 +3,7 @@
 
     use Cliente\Cadastro;
 
-    $cad = new Registros();
+    $cad = new Cadastro();
     $cad->setNome("Marcelo");
     $cad->setEmail("contato@kdkhost.com.br");
     $cad->setSenha("admin123.");
