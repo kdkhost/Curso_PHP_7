@@ -1,6 +1,0 @@
-deployment:
-  tasks:
-    export DEPLOYPATH=/home/php7transferenci/public_html/
-    /bin/cp -R images $DEPLOYPATH
-
-    git push origin master -u --exec=/usr/local/cpanel/3rdparty/bin/git-receive-pack
