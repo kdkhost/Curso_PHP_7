@@ -1,0 +1,12 @@
+[25-Jun-2019 17:17:34 UTC] PHP Fatal error:  Uncaught Error: Class 'Sql' not found in /home/php7transferenci/public_html/DAO/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/php7transferenci/public_html/DAO/index.php on line 4
+[25-Jun-2019 17:19:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Sql' not found in /home/php7transferenci/public_html/DAO/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/php7transferenci/public_html/DAO/index.php on line 4
+[25-Jun-2019 17:19:52 UTC] PHP Fatal error:  Uncaught Error: Class 'Sql' not found in /home/php7transferenci/public_html/DAO/index.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/php7transferenci/public_html/DAO/index.php on line 4
