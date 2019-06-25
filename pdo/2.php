@@ -1,9 +1,11 @@
 <?php
 
-    //** conecxoes PDO com MySql */
+    //** conecxoes PDO com MySql Server */
+    //* lembrando que nao temos instalado em nosso servidor o SqlServer *//
 
     $conn = new PDO(
-        "mysql:dbname=php7transferenci_udemy; host=localhost",
+        "sqlsrv:Database= php7transferenci_udemy;
+        server= localhost\SQLEXPRESS;connectionPooling=0",
         "php7transferenci_udemy",
         "udemy2019."
     );
