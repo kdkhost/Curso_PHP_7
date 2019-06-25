@@ -18,7 +18,7 @@
            $statment->bindParam($key, $value);
        }
 
-       public function query($rawQuary, $params = array()){
+       public function query($rawQuary, $params = array()) {
            $stmt = $this->conn->prepare($rawQuary);
            $this->setParams($stmt, $params);
 
@@ -27,7 +27,7 @@
            return $stmt;
        }
 
-       public function select($rawQuary, $params = array()){
+       public function select($rawQuary, $params = array()):array{
            $stmt = $this->query($rawQuary, $params);
            return $stmt->fetchAll(PDO::FETCH_ASSOC);
 
