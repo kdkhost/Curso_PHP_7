@@ -1,5 +1,5 @@
 <?php 
-   class Kdkhost extends PDO {
+   class Sql extends PDO {
        private $conn;
        private function __construct(){
            $this->conn = new PDO("mysql:dbname=php7transferenci_udemy; host=localhost",
@@ -9,7 +9,7 @@
        }
 
        private function setParams($statment, $parameters = array()){
-        foreach($parameters as $key => $value){
+        foreach ($parameters as $key => $value) {
             $this->setParam($key, $value);
         }
        }
@@ -19,10 +19,18 @@
        }
 
        public function query($rawQuary, $params = array()){
-           $stmt = $this->conn->prepare($RawQuary);
+           $stmt = $this->conn->prepare($rawQuary);
            $this->setParams($stmt, $params);
 
-           return $stmt->execute();
+           $stmt->execute();
+
+           return $stmt;
+       }
+
+       public function select($rawQuary, $params = array()){
+           $stmt = $this->query($rawQuary, $params);
+           return $stmt->fetchAll(PDO::FETCH_ASSOC);
+
        }
    } 
 ?>
