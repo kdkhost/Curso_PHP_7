@@ -1,5 +1,5 @@
 <?php 
-   class Sql extends PDO {
+   class Lipe extends PDO {
        private $conn;
        private function __construct(){
            $this->conn = new PDO("mysql:dbname=php7transferenci_udemy; host=localhost",
@@ -10,7 +10,7 @@
 
        private function setParams($statment, $parameters = array()){
         foreach ($parameters as $key => $value) {
-            $this->setParam($key, $value);
+            $this->setParam($statment, $key, $value);
         }
        }
 
