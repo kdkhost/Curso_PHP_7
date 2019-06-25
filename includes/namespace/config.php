@@ -1,12 +1,11 @@
 <?php
 
-    spl_autoload_register(function($nameClasse){
+    spl_autoload_register(function($nameClass){
 
-        var_dump($nameClasse);
-
+        //var_dump($nameClass);
+        
         $dirClass = "class";
-        //$filename = $dirClass . DIRECTORY_SEPARATOR . $nameClasse . ".php";
-        $filename = str_replace ("\\", "/",$dirClass . DIRECTORY_SEPARATOR . $nameClass . ".php");
+        $filename = str_replace ("\\", "/", $dirClass . DIRECTORY_SEPARATOR . $nameClass . ".php");
 
         if (file_exists($filename)){
             require_once($filename);
