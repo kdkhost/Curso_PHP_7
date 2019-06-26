@@ -1,7 +1,0 @@
-[25-Jun-2019 14:12:49 UTC] PHP Fatal error:  Uncaught PDOException: could not find driver in /home/php7transferenci/public_html/pdo/2.php:9
-Stack trace:
-#0 /home/php7transferenci/public_html/pdo/2.php(9): PDO->__construct('sqlsrv:Database...', 'php7transferenc...', 'udemy2019.')
-#1 {main}
-  thrown in /home/php7transferenci/public_html/pdo/2.php on line 9
-[25-Jun-2019 14:58:42 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/php7transferenci/public_html/pdo/4.php on line 18
-[25-Jun-2019 15:15:59 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/php7transferenci/public_html/pdo/5.php on line 19
