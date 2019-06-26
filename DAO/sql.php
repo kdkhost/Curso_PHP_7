@@ -1,5 +1,5 @@
 <?php 
-   class Lipe extends PDO {
+   class Sql extends PDO {
        private $conn;
        private function __construct(){
            $this->conn = new PDO("mysql:dbname=php7transferenci_udemy; host=localhost",
